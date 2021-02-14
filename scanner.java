@@ -8,19 +8,23 @@ class scanner{
 		String str = sc.next(); //it terminates the scanner as soon as it finds space in string
 		//Another method to scan the string with spaces is 'sc.nextLine()'
 		System.out.println("The string is "+str);
+        System.out.println();
 		//now let just scan the integer
 		System.out.print("Enter the integer: ");
 		Integer num = sc.nextInt();
 		System.out.println("You have entered "+num+" as integer.");
+        System.out.println();
 		//its now turn to scan the float number
 		System.out.print("Enter the float number: ");
 		Float flt = sc.nextFloat();
 		System.out.println("The float number is "+flt);
+        System.out.println();
 		//now here's come a one more method
 		System.out.print("Enter the double number: ");
 		Double dbl = sc.nextDouble();
 		System.out.println("The double number is "+dbl);
-        //let's scan a one more variable of boolean
+        System.out.println();
+        //let's scan a one more variable of boolean i.e either true or false
         System.out.print("Enter the boolean value: ");
         Boolean bool = sc.nextBoolean();
         System.out.println("The boolean expression is "+bool);
