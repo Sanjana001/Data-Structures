@@ -31,6 +31,6 @@ class scanner{
 		/*let's learn some more methods except these
 		1.)  sc.nextShort() -> To read the short value from user
 		2.)  sc.nextByte()  -> To read the byte from user
-		3.)  sc.nextLong()  -> To read long value from the user
+		3.)  sc.nextLong()  -> To read long value from the user */
 	}
 }
