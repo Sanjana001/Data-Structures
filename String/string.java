@@ -8,9 +8,8 @@ class string{
 		String str_1 = sc.nextLine();
 		System.out.print("Enter the third string: ");
 		String str_2 = sc.nextLine();
-		System.out.println();
 		//let's find the length of str_0
-		System.out.println("The length of the first string is "+str_0.length());
+		System.out.println("\nThe length of the first string is "+str_0.length());
 		//now let's convert the second string into lowercase
 		System.out.println("The lowercase of second string is "+str_1.toLowerCase());
 		//let's just convert the third string into uppercase
