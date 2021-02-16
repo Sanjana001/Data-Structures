@@ -20,7 +20,9 @@ class math{
 		System.out.println("The rounded value of "+num1+" is "+Math.round(num1));
 		//its now turn to find any random number between 0 to num2-1 
 		System.out.println("The random number between "+num2+" is "+(int)(Math.random()*num2));
-		//here is the time to find the absolute (positive) value of -100
-		System.out.println("The absolute value of "+(-100)+" is "+Math.abs(-100));
+		//here is the time to find the absolute (positive) value of -num1
+		System.out.println("The absolute value of "+(-num1)+" is "+Math.abs(-num1));
+		//let's find the exponential power of num2
+		System.out.println("The exponential power of "+num2+" is "+Math.exp(num2));
 	}
 }
