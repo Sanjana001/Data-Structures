@@ -17,6 +17,15 @@ class givenstring{
 		    System.out.println("true");
 		else System.out.println("false");*/
 		System.out.println(first.startsWith(str)); //checks whether first starts with str or not
-		System.out.println(second.startsWith(str)); //checks whether second starts with str or not
+		System.out.println(second.startsWith(str)); //checks whether second starts with str or no
+		String str_1 = "Welcome to the Java's world";
+		System.out.println("\nWe will perform some operations on \''"+str_1+"\'' string");
+		//firstly we will replace the Java's substring with Jurassic
+		str_1 = str_1.replace("Java's","Jurassic");
+		System.out.println("After replacing the string will be \''"+str_1+"\'' string");
+		//now let's split the string
+		String[] split = str_1.split(" ");
+		//System.out.println(split.length);
+		//if we don't want to split the string but we want to see each character then we can convert the string into character array by using toCharArray()
 	}
 }
